@@ -14,12 +14,12 @@ public class Calculator {
 	}
 	
 	public float multiply (float a, float b) {
-		
-		
+		float res = a*b;
+		return res;
 	}
 	
 	public float division (float a, float b) {
-		
-		
+		float res = a/b;
+		return res;
 	}
 }
