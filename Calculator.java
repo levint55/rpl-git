@@ -22,4 +22,12 @@ public class Calculator {
 		float res = a/b;
 		return res;
 	}
+	
+	public float max (float a, float b) {
+		if (a>b){
+			return a;
+		} else {
+			return b;
+		}
+	}
 }
