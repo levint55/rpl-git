@@ -25,6 +25,7 @@ public class Calculator {
 	
 	public float min (float a, float b) {
 		return a<b?a:b;
+	}
 
 	public float max (float a, float b) {
 		if (a>b){
