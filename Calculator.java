@@ -22,4 +22,8 @@ public class Calculator {
 		float res = a/b;
 		return res;
 	}
+	
+	public float min (float a, float b) {
+		return a<b?a:b;
+	}
 }
